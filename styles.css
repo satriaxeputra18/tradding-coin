@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #76766b;
+}
+
+canvas {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.3), rgb(102, 102, 102, 0.3));
+  box-shadow: 0px 0px 15px rgb(6, 6, 9, 0.5);
+}
+
+/* Styling tombol */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.sell {
+  background-color: #ff2e2e;
+  color: white;
+}
+
+.sell:hover {
+  background-color: #cc0000;
+}
+
+.buy {
+  background-color: #2e5bff;
+  color: white;
+}
+
+.buy:hover {
+  background-color: #009411;
+}
